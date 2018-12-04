@@ -15,6 +15,17 @@
 		72339F9621B06FF80041D2A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72339F9521B06FF80041D2A3 /* main.m */; };
 		72339FA021B06FF80041D2A3 /* NetworkRequestPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72339F9F21B06FF80041D2A3 /* NetworkRequestPracticeTests.m */; };
 		72339FAB21B06FF80041D2A3 /* NetworkRequestPracticeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72339FAA21B06FF80041D2A3 /* NetworkRequestPracticeUITests.m */; };
+		72339FBA21B0701E0041D2A3 /* NetworkRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = 72339FB921B0701E0041D2A3 /* NetworkRequester.m */; };
+		72339FC021B08E830041D2A3 /* GitURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 72339FBF21B08E830041D2A3 /* GitURLSession.m */; };
+		72339FC521B0988B0041D2A3 /* GitURLSessionMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 72339FC421B0988B0041D2A3 /* GitURLSessionMock.m */; };
+		7239B07121B184F200F15CFA /* NetworkRequesterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7239B07021B184F200F15CFA /* NetworkRequesterTest.m */; };
+		7239B07821B1868100F15CFA /* NetworkRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = 72339FB921B0701E0041D2A3 /* NetworkRequester.m */; };
+		7239B08021B19DF400F15CFA /* CallbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7239B07F21B19DF400F15CFA /* CallbackViewController.m */; };
+		7239B08421B1C45400F15CFA /* AddURLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7239B08321B1C45400F15CFA /* AddURLViewController.m */; };
+		7239B08A21B1E82300F15CFA /* NetworkRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7239B08921B1E82300F15CFA /* NetworkRequestManager.m */; };
+		72C7155321B58E9E008876E8 /* NetworkDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C7155221B58E9E008876E8 /* NetworkDataStore.m */; };
+		72C7155921B5A8F6008876E8 /* ReadMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C7155821B5A8F6008876E8 /* ReadMeViewController.m */; };
+		72C7155C21B5C3EA008876E8 /* URLConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C7155B21B5C3EA008876E8 /* URLConverter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,27 @@
 		72339FA621B06FF80041D2A3 /* NetworkRequestPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkRequestPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72339FAA21B06FF80041D2A3 /* NetworkRequestPracticeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkRequestPracticeUITests.m; sourceTree = "<group>"; };
 		72339FAC21B06FF80041D2A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72339FB821B0701E0041D2A3 /* NetworkRequester.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkRequester.h; sourceTree = "<group>"; };
+		72339FB921B0701E0041D2A3 /* NetworkRequester.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkRequester.m; sourceTree = "<group>"; };
+		72339FBB21B08D8A0041D2A3 /* URLSessionProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLSessionProtocol.h; sourceTree = "<group>"; };
+		72339FBE21B08E830041D2A3 /* GitURLSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitURLSession.h; sourceTree = "<group>"; };
+		72339FBF21B08E830041D2A3 /* GitURLSession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitURLSession.m; sourceTree = "<group>"; };
+		72339FC321B0988B0041D2A3 /* GitURLSessionMock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitURLSessionMock.h; sourceTree = "<group>"; };
+		72339FC421B0988B0041D2A3 /* GitURLSessionMock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitURLSessionMock.m; sourceTree = "<group>"; };
+		7239B07021B184F200F15CFA /* NetworkRequesterTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkRequesterTest.m; sourceTree = "<group>"; };
+		7239B07E21B19DF400F15CFA /* CallbackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallbackViewController.h; sourceTree = "<group>"; };
+		7239B07F21B19DF400F15CFA /* CallbackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallbackViewController.m; sourceTree = "<group>"; };
+		7239B08221B1C45400F15CFA /* AddURLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddURLViewController.h; sourceTree = "<group>"; };
+		7239B08321B1C45400F15CFA /* AddURLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddURLViewController.m; sourceTree = "<group>"; };
+		7239B08821B1E82300F15CFA /* NetworkRequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkRequestManager.h; sourceTree = "<group>"; };
+		7239B08921B1E82300F15CFA /* NetworkRequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkRequestManager.m; sourceTree = "<group>"; };
+		72C7154E21B57810008876E8 /* CallbackDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallbackDelegate.h; sourceTree = "<group>"; };
+		72C7155121B58E9E008876E8 /* NetworkDataStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkDataStore.h; sourceTree = "<group>"; };
+		72C7155221B58E9E008876E8 /* NetworkDataStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkDataStore.m; sourceTree = "<group>"; };
+		72C7155721B5A8F6008876E8 /* ReadMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReadMeViewController.h; sourceTree = "<group>"; };
+		72C7155821B5A8F6008876E8 /* ReadMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadMeViewController.m; sourceTree = "<group>"; };
+		72C7155A21B5C3EA008876E8 /* URLConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLConverter.h; sourceTree = "<group>"; };
+		72C7155B21B5C3EA008876E8 /* URLConverter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLConverter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +133,26 @@
 		72339F8521B06FF60041D2A3 /* NetworkRequestPractice */ = {
 			isa = PBXGroup;
 			children = (
+				7239B08121B1C40B00F15CFA /* VIewControllers */,
 				72339F8621B06FF60041D2A3 /* AppDelegate.h */,
 				72339F8721B06FF60041D2A3 /* AppDelegate.m */,
-				72339F8921B06FF60041D2A3 /* ViewController.h */,
-				72339F8A21B06FF60041D2A3 /* ViewController.m */,
 				72339F8C21B06FF60041D2A3 /* Main.storyboard */,
 				72339F8F21B06FF80041D2A3 /* Assets.xcassets */,
 				72339F9121B06FF80041D2A3 /* LaunchScreen.storyboard */,
 				72339F9421B06FF80041D2A3 /* Info.plist */,
 				72339F9521B06FF80041D2A3 /* main.m */,
+				72339FB821B0701E0041D2A3 /* NetworkRequester.h */,
+				72339FB921B0701E0041D2A3 /* NetworkRequester.m */,
+				72339FBB21B08D8A0041D2A3 /* URLSessionProtocol.h */,
+				72339FBE21B08E830041D2A3 /* GitURLSession.h */,
+				72339FBF21B08E830041D2A3 /* GitURLSession.m */,
+				7239B08821B1E82300F15CFA /* NetworkRequestManager.h */,
+				7239B08921B1E82300F15CFA /* NetworkRequestManager.m */,
+				72C7154E21B57810008876E8 /* CallbackDelegate.h */,
+				72C7155121B58E9E008876E8 /* NetworkDataStore.h */,
+				72C7155221B58E9E008876E8 /* NetworkDataStore.m */,
+				72C7155A21B5C3EA008876E8 /* URLConverter.h */,
+				72C7155B21B5C3EA008876E8 /* URLConverter.m */,
 			);
 			path = NetworkRequestPractice;
 			sourceTree = "<group>";
@@ -119,6 +162,9 @@
 			children = (
 				72339F9F21B06FF80041D2A3 /* NetworkRequestPracticeTests.m */,
 				72339FA121B06FF80041D2A3 /* Info.plist */,
+				72339FC321B0988B0041D2A3 /* GitURLSessionMock.h */,
+				72339FC421B0988B0041D2A3 /* GitURLSessionMock.m */,
+				7239B07021B184F200F15CFA /* NetworkRequesterTest.m */,
 			);
 			path = NetworkRequestPracticeTests;
 			sourceTree = "<group>";
@@ -130,6 +176,21 @@
 				72339FAC21B06FF80041D2A3 /* Info.plist */,
 			);
 			path = NetworkRequestPracticeUITests;
+			sourceTree = "<group>";
+		};
+		7239B08121B1C40B00F15CFA /* VIewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				72339F8921B06FF60041D2A3 /* ViewController.h */,
+				72339F8A21B06FF60041D2A3 /* ViewController.m */,
+				7239B07E21B19DF400F15CFA /* CallbackViewController.h */,
+				7239B07F21B19DF400F15CFA /* CallbackViewController.m */,
+				7239B08221B1C45400F15CFA /* AddURLViewController.h */,
+				7239B08321B1C45400F15CFA /* AddURLViewController.m */,
+				72C7155721B5A8F6008876E8 /* ReadMeViewController.h */,
+				72C7155821B5A8F6008876E8 /* ReadMeViewController.m */,
+			);
+			path = VIewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +323,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7239B08A21B1E82300F15CFA /* NetworkRequestManager.m in Sources */,
 				72339F8B21B06FF60041D2A3 /* ViewController.m in Sources */,
+				7239B08421B1C45400F15CFA /* AddURLViewController.m in Sources */,
+				7239B08021B19DF400F15CFA /* CallbackViewController.m in Sources */,
+				72C7155921B5A8F6008876E8 /* ReadMeViewController.m in Sources */,
+				72C7155321B58E9E008876E8 /* NetworkDataStore.m in Sources */,
 				72339F9621B06FF80041D2A3 /* main.m in Sources */,
 				72339F8821B06FF60041D2A3 /* AppDelegate.m in Sources */,
+				72339FBA21B0701E0041D2A3 /* NetworkRequester.m in Sources */,
+				72339FC021B08E830041D2A3 /* GitURLSession.m in Sources */,
+				72C7155C21B5C3EA008876E8 /* URLConverter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +342,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				72339FA021B06FF80041D2A3 /* NetworkRequestPracticeTests.m in Sources */,
+				7239B07121B184F200F15CFA /* NetworkRequesterTest.m in Sources */,
+				72339FC521B0988B0041D2A3 /* GitURLSessionMock.m in Sources */,
+				7239B07821B1868100F15CFA /* NetworkRequester.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

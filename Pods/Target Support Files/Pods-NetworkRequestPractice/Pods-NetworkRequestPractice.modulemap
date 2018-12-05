@@ -1,0 +1,6 @@
+framework module Pods_NetworkRequestPractice {
+  umbrella header "Pods-NetworkRequestPractice-umbrella.h"
+
+  export *
+  module * { export * }
+}

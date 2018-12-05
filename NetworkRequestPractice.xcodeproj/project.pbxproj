@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07ABDC66701D99B3C8A9CB16 /* Pods_NetworkRequestPracticeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 623BC55F0956C8348D5E9D4C /* Pods_NetworkRequestPracticeTests.framework */; };
+		1B0375C5BB2B1482FA94BEE9 /* Pods_NetworkRequestPracticeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81FBCD0FCD19C505F7ED3ABA /* Pods_NetworkRequestPracticeUITests.framework */; };
+		5F417C2790B16683A1B7C53D /* Pods_NetworkRequestPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD54C4DF73FBE22B682351E /* Pods_NetworkRequestPractice.framework */; };
+		722112D521B6F9D20001F576 /* RepositoryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722112D421B6F9D20001F576 /* RepositoryListTableViewController.swift */; };
+		722112D821B6FAE30001F576 /* EnterURLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722112D721B6FAE30001F576 /* EnterURLViewController.swift */; };
+		722112DA21B6FC4B0001F576 /* NetworkRequesterReactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722112D921B6FC4B0001F576 /* NetworkRequesterReactive.swift */; };
+		722112DC21B710D50001F576 /* NetworkRequestManagerReactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722112DB21B710D50001F576 /* NetworkRequestManagerReactive.swift */; };
 		72339F8821B06FF60041D2A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72339F8721B06FF60041D2A3 /* AppDelegate.m */; };
 		72339F8B21B06FF60041D2A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72339F8A21B06FF60041D2A3 /* ViewController.m */; };
 		72339F8E21B06FF60041D2A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72339F8C21B06FF60041D2A3 /* Main.storyboard */; };
@@ -23,6 +30,7 @@
 		7239B08021B19DF400F15CFA /* CallbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7239B07F21B19DF400F15CFA /* CallbackViewController.m */; };
 		7239B08421B1C45400F15CFA /* AddURLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7239B08321B1C45400F15CFA /* AddURLViewController.m */; };
 		7239B08A21B1E82300F15CFA /* NetworkRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7239B08921B1E82300F15CFA /* NetworkRequestManager.m */; };
+		724C230B21B7661900D15F14 /* NetworkDataStoreReactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724C230A21B7661900D15F14 /* NetworkDataStoreReactive.swift */; };
 		72C7155321B58E9E008876E8 /* NetworkDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C7155221B58E9E008876E8 /* NetworkDataStore.m */; };
 		72C7155921B5A8F6008876E8 /* ReadMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C7155821B5A8F6008876E8 /* ReadMeViewController.m */; };
 		72C7155C21B5C3EA008876E8 /* URLConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C7155B21B5C3EA008876E8 /* URLConverter.m */; };
@@ -46,6 +54,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3FD54C4DF73FBE22B682351E /* Pods_NetworkRequestPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkRequestPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EB055AD8093792E24390B6 /* Pods-NetworkRequestPracticeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkRequestPracticeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkRequestPracticeTests/Pods-NetworkRequestPracticeTests.release.xcconfig"; sourceTree = "<group>"; };
+		4D3AD6EE1D1BC1E3C59A6C55 /* Pods-NetworkRequestPracticeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkRequestPracticeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkRequestPracticeUITests/Pods-NetworkRequestPracticeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		623BC55F0956C8348D5E9D4C /* Pods_NetworkRequestPracticeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkRequestPracticeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		722112D421B6F9D20001F576 /* RepositoryListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListTableViewController.swift; sourceTree = "<group>"; };
+		722112D721B6FAE30001F576 /* EnterURLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterURLViewController.swift; sourceTree = "<group>"; };
+		722112D921B6FC4B0001F576 /* NetworkRequesterReactive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequesterReactive.swift; sourceTree = "<group>"; };
+		722112DB21B710D50001F576 /* NetworkRequestManagerReactive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestManagerReactive.swift; sourceTree = "<group>"; };
 		72339F8321B06FF60041D2A3 /* NetworkRequestPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkRequestPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72339F8621B06FF60041D2A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		72339F8721B06FF60041D2A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -76,6 +92,7 @@
 		7239B08321B1C45400F15CFA /* AddURLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddURLViewController.m; sourceTree = "<group>"; };
 		7239B08821B1E82300F15CFA /* NetworkRequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkRequestManager.h; sourceTree = "<group>"; };
 		7239B08921B1E82300F15CFA /* NetworkRequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkRequestManager.m; sourceTree = "<group>"; };
+		724C230A21B7661900D15F14 /* NetworkDataStoreReactive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataStoreReactive.swift; sourceTree = "<group>"; };
 		72C7154E21B57810008876E8 /* CallbackDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallbackDelegate.h; sourceTree = "<group>"; };
 		72C7155121B58E9E008876E8 /* NetworkDataStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkDataStore.h; sourceTree = "<group>"; };
 		72C7155221B58E9E008876E8 /* NetworkDataStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkDataStore.m; sourceTree = "<group>"; };
@@ -83,6 +100,12 @@
 		72C7155821B5A8F6008876E8 /* ReadMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadMeViewController.m; sourceTree = "<group>"; };
 		72C7155A21B5C3EA008876E8 /* URLConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLConverter.h; sourceTree = "<group>"; };
 		72C7155B21B5C3EA008876E8 /* URLConverter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLConverter.m; sourceTree = "<group>"; };
+		72C7156C21B6E7A7008876E8 /* NetworkRequestPractice-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetworkRequestPractice-Bridging-Header.h"; sourceTree = "<group>"; };
+		81FBCD0FCD19C505F7ED3ABA /* Pods_NetworkRequestPracticeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkRequestPracticeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97BB6E28ABA244EA8FD57322 /* Pods-NetworkRequestPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkRequestPractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkRequestPractice/Pods-NetworkRequestPractice.debug.xcconfig"; sourceTree = "<group>"; };
+		E7A2E62B1A1A7FF4213CA92F /* Pods-NetworkRequestPracticeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkRequestPracticeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkRequestPracticeTests/Pods-NetworkRequestPracticeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5880254E72C7577BCF3FFE1 /* Pods-NetworkRequestPracticeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkRequestPracticeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkRequestPracticeUITests/Pods-NetworkRequestPracticeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FBCEDA288887B111A7A86AE9 /* Pods-NetworkRequestPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkRequestPractice.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkRequestPractice/Pods-NetworkRequestPractice.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F417C2790B16683A1B7C53D /* Pods_NetworkRequestPractice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07ABDC66701D99B3C8A9CB16 /* Pods_NetworkRequestPracticeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,12 +129,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B0375C5BB2B1482FA94BEE9 /* Pods_NetworkRequestPracticeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CE1168EC03462453A542E06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97BB6E28ABA244EA8FD57322 /* Pods-NetworkRequestPractice.debug.xcconfig */,
+				FBCEDA288887B111A7A86AE9 /* Pods-NetworkRequestPractice.release.xcconfig */,
+				E7A2E62B1A1A7FF4213CA92F /* Pods-NetworkRequestPracticeTests.debug.xcconfig */,
+				42EB055AD8093792E24390B6 /* Pods-NetworkRequestPracticeTests.release.xcconfig */,
+				4D3AD6EE1D1BC1E3C59A6C55 /* Pods-NetworkRequestPracticeUITests.debug.xcconfig */,
+				F5880254E72C7577BCF3FFE1 /* Pods-NetworkRequestPracticeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		72339F7A21B06FF60041D2A3 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +156,9 @@
 				72339F9E21B06FF80041D2A3 /* NetworkRequestPracticeTests */,
 				72339FA921B06FF80041D2A3 /* NetworkRequestPracticeUITests */,
 				72339F8421B06FF60041D2A3 /* Products */,
+				4CE1168EC03462453A542E06 /* Pods */,
+				FABDCD93A709BF1F7D39B505 /* Frameworks */,
+				72C7156C21B6E7A7008876E8 /* NetworkRequestPractice-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,7 +175,8 @@
 		72339F8521B06FF60041D2A3 /* NetworkRequestPractice */ = {
 			isa = PBXGroup;
 			children = (
-				7239B08121B1C40B00F15CFA /* VIewControllers */,
+				72C7156121B6DDA5008876E8 /* UsingReactive */,
+				72C7156021B6DC30008876E8 /* UsingCallback */,
 				72339F8621B06FF60041D2A3 /* AppDelegate.h */,
 				72339F8721B06FF60041D2A3 /* AppDelegate.m */,
 				72339F8C21B06FF60041D2A3 /* Main.storyboard */,
@@ -141,18 +184,6 @@
 				72339F9121B06FF80041D2A3 /* LaunchScreen.storyboard */,
 				72339F9421B06FF80041D2A3 /* Info.plist */,
 				72339F9521B06FF80041D2A3 /* main.m */,
-				72339FB821B0701E0041D2A3 /* NetworkRequester.h */,
-				72339FB921B0701E0041D2A3 /* NetworkRequester.m */,
-				72339FBB21B08D8A0041D2A3 /* URLSessionProtocol.h */,
-				72339FBE21B08E830041D2A3 /* GitURLSession.h */,
-				72339FBF21B08E830041D2A3 /* GitURLSession.m */,
-				7239B08821B1E82300F15CFA /* NetworkRequestManager.h */,
-				7239B08921B1E82300F15CFA /* NetworkRequestManager.m */,
-				72C7154E21B57810008876E8 /* CallbackDelegate.h */,
-				72C7155121B58E9E008876E8 /* NetworkDataStore.h */,
-				72C7155221B58E9E008876E8 /* NetworkDataStore.m */,
-				72C7155A21B5C3EA008876E8 /* URLConverter.h */,
-				72C7155B21B5C3EA008876E8 /* URLConverter.m */,
 			);
 			path = NetworkRequestPractice;
 			sourceTree = "<group>";
@@ -193,6 +224,56 @@
 			path = VIewControllers;
 			sourceTree = "<group>";
 		};
+		72C7156021B6DC30008876E8 /* UsingCallback */ = {
+			isa = PBXGroup;
+			children = (
+				7239B08121B1C40B00F15CFA /* VIewControllers */,
+				72339FB821B0701E0041D2A3 /* NetworkRequester.h */,
+				72339FB921B0701E0041D2A3 /* NetworkRequester.m */,
+				72339FBB21B08D8A0041D2A3 /* URLSessionProtocol.h */,
+				72339FBE21B08E830041D2A3 /* GitURLSession.h */,
+				72339FBF21B08E830041D2A3 /* GitURLSession.m */,
+				7239B08821B1E82300F15CFA /* NetworkRequestManager.h */,
+				7239B08921B1E82300F15CFA /* NetworkRequestManager.m */,
+				72C7154E21B57810008876E8 /* CallbackDelegate.h */,
+				72C7155121B58E9E008876E8 /* NetworkDataStore.h */,
+				72C7155221B58E9E008876E8 /* NetworkDataStore.m */,
+				72C7155A21B5C3EA008876E8 /* URLConverter.h */,
+				72C7155B21B5C3EA008876E8 /* URLConverter.m */,
+			);
+			path = UsingCallback;
+			sourceTree = "<group>";
+		};
+		72C7156121B6DDA5008876E8 /* UsingReactive */ = {
+			isa = PBXGroup;
+			children = (
+				72C7156221B6E1FD008876E8 /* ViewControllers */,
+				722112D921B6FC4B0001F576 /* NetworkRequesterReactive.swift */,
+				722112DB21B710D50001F576 /* NetworkRequestManagerReactive.swift */,
+				724C230A21B7661900D15F14 /* NetworkDataStoreReactive.swift */,
+			);
+			path = UsingReactive;
+			sourceTree = "<group>";
+		};
+		72C7156221B6E1FD008876E8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				722112D421B6F9D20001F576 /* RepositoryListTableViewController.swift */,
+				722112D721B6FAE30001F576 /* EnterURLViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FABDCD93A709BF1F7D39B505 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FD54C4DF73FBE22B682351E /* Pods_NetworkRequestPractice.framework */,
+				623BC55F0956C8348D5E9D4C /* Pods_NetworkRequestPracticeTests.framework */,
+				81FBCD0FCD19C505F7ED3ABA /* Pods_NetworkRequestPracticeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -200,9 +281,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72339FAF21B06FF80041D2A3 /* Build configuration list for PBXNativeTarget "NetworkRequestPractice" */;
 			buildPhases = (
+				9A1D47B00BAFE72933EAABF7 /* [CP] Check Pods Manifest.lock */,
 				72339F7F21B06FF60041D2A3 /* Sources */,
 				72339F8021B06FF60041D2A3 /* Frameworks */,
 				72339F8121B06FF60041D2A3 /* Resources */,
+				05B166F47D0ED7559659DCB6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +300,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72339FB221B06FF80041D2A3 /* Build configuration list for PBXNativeTarget "NetworkRequestPracticeTests" */;
 			buildPhases = (
+				0EF8740E779D8F159A368871 /* [CP] Check Pods Manifest.lock */,
 				72339F9721B06FF80041D2A3 /* Sources */,
 				72339F9821B06FF80041D2A3 /* Frameworks */,
 				72339F9921B06FF80041D2A3 /* Resources */,
@@ -235,6 +319,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72339FB521B06FF80041D2A3 /* Build configuration list for PBXNativeTarget "NetworkRequestPracticeUITests" */;
 			buildPhases = (
+				8057A2DF4A54A8146143FF77 /* [CP] Check Pods Manifest.lock */,
 				72339FA221B06FF80041D2A3 /* Sources */,
 				72339FA321B06FF80041D2A3 /* Frameworks */,
 				72339FA421B06FF80041D2A3 /* Resources */,
@@ -260,6 +345,7 @@
 				TargetAttributes = {
 					72339F8221B06FF60041D2A3 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					72339F9A21B06FF80041D2A3 = {
 						CreatedOnToolsVersion = 10.1;
@@ -318,20 +404,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05B166F47D0ED7559659DCB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NetworkRequestPractice/Pods-NetworkRequestPractice-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NetworkRequestPractice/Pods-NetworkRequestPractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0EF8740E779D8F159A368871 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetworkRequestPracticeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8057A2DF4A54A8146143FF77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetworkRequestPracticeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A1D47B00BAFE72933EAABF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetworkRequestPractice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		72339F7F21B06FF60041D2A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				722112DA21B6FC4B0001F576 /* NetworkRequesterReactive.swift in Sources */,
 				7239B08A21B1E82300F15CFA /* NetworkRequestManager.m in Sources */,
 				72339F8B21B06FF60041D2A3 /* ViewController.m in Sources */,
 				7239B08421B1C45400F15CFA /* AddURLViewController.m in Sources */,
 				7239B08021B19DF400F15CFA /* CallbackViewController.m in Sources */,
 				72C7155921B5A8F6008876E8 /* ReadMeViewController.m in Sources */,
 				72C7155321B58E9E008876E8 /* NetworkDataStore.m in Sources */,
+				722112DC21B710D50001F576 /* NetworkRequestManagerReactive.swift in Sources */,
+				722112D521B6F9D20001F576 /* RepositoryListTableViewController.swift in Sources */,
 				72339F9621B06FF80041D2A3 /* main.m in Sources */,
 				72339F8821B06FF60041D2A3 /* AppDelegate.m in Sources */,
+				722112D821B6FAE30001F576 /* EnterURLViewController.swift in Sources */,
 				72339FBA21B0701E0041D2A3 /* NetworkRequester.m in Sources */,
+				724C230B21B7661900D15F14 /* NetworkDataStoreReactive.swift in Sources */,
 				72339FC021B08E830041D2A3 /* GitURLSession.m in Sources */,
 				72C7155C21B5C3EA008876E8 /* URLConverter.m in Sources */,
 			);
@@ -505,8 +689,10 @@
 		};
 		72339FB021B06FF80041D2A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97BB6E28ABA244EA8FD57322 /* Pods-NetworkRequestPractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S3Q8695S88;
 				INFOPLIST_FILE = NetworkRequestPractice/Info.plist;
@@ -516,14 +702,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = whatever.NetworkRequestPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NetworkRequestPractice-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		72339FB121B06FF80041D2A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBCEDA288887B111A7A86AE9 /* Pods-NetworkRequestPractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S3Q8695S88;
 				INFOPLIST_FILE = NetworkRequestPractice/Info.plist;
@@ -533,13 +724,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = whatever.NetworkRequestPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NetworkRequestPractice-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		72339FB321B06FF80041D2A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7A2E62B1A1A7FF4213CA92F /* Pods-NetworkRequestPracticeTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S3Q8695S88;
@@ -558,7 +753,9 @@
 		};
 		72339FB421B06FF80041D2A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42EB055AD8093792E24390B6 /* Pods-NetworkRequestPracticeTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S3Q8695S88;
@@ -577,7 +774,9 @@
 		};
 		72339FB621B06FF80041D2A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D3AD6EE1D1BC1E3C59A6C55 /* Pods-NetworkRequestPracticeUITests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S3Q8695S88;
 				INFOPLIST_FILE = NetworkRequestPracticeUITests/Info.plist;
@@ -595,7 +794,9 @@
 		};
 		72339FB721B06FF80041D2A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5880254E72C7577BCF3FFE1 /* Pods-NetworkRequestPracticeUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S3Q8695S88;
 				INFOPLIST_FILE = NetworkRequestPracticeUITests/Info.plist;

@@ -20,8 +20,8 @@ class NetworkRequesterReactive: NSObject {
             request.setValue(authorizationToken, forHTTPHeaderField: "Authorization")
             return URLSession.shared.rx.json(request: request)
         }
-        return Observable.create({ (observer) -> Disposable in
-            return Disposables.create()
-        })
+        
+        return Observable.just("")
+//        return Observable.empty()
     }
 }

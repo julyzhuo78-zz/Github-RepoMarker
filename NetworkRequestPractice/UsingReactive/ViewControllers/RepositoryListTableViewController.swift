@@ -11,7 +11,7 @@ import UIKit
 import RxSwift
 import SafariServices
 
-class RepositoryListTableViewController: UITableViewController, CallbackDelegate {
+class RepositoryListTableViewController: UITableViewController {
     
     
     var networkRequestManager:NetworkRequestManagerReactive
@@ -50,16 +50,15 @@ class RepositoryListTableViewController: UITableViewController, CallbackDelegate
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "addURL" {
             let vc = segue.destination as? EnterURLViewController
-            vc?.callbackDelegate = self
+            vc?.didFinishObservable.subscribe(onNext: { (urlString) in
+                self.networkDataStore.addUrl(urlString: urlString)
+                DispatchQueue.main.async {
+                    self.tableView.reloadData()
+                }
+            })
         }
     }
     
-    func didFinished(withCurrentURL urlString: String) {
-        networkDataStore.addUrl(urlString: urlString)
-        DispatchQueue.main.async {
-            self.tableView.reloadData()
-        }
-    }
     
     func fetchReadMeContent() {
         let readMeUrl = networkDataStore.getMeURL()

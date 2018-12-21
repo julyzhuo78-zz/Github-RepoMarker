@@ -5,20 +5,24 @@
 //  Created by Ran Zhuo on 2018-12-04.
 //  Copyright © 2018 Ran Zhuo. All rights reserved.
 //
-//https://api.github.com/users/julyzhuo/repos
+
 import Foundation
 import UIKit
 import RxSwift
 
 class EnterURLViewController: UIViewController {
     let networkRequestManager = NetworkRequestManagerReactive(userDefault: UserDefaults.standard)
-    var callbackDelegate:CallbackDelegate?
+    private let didFinishSubject = PublishSubject<String>()
+    public var didFinishObservable:Observable<String> {
+        get {
+            return didFinishSubject.asObserver()
+        }
+    }
     
     @IBOutlet weak var invalidURLWarning: UILabel!
     @IBOutlet weak var urlTextField: UITextField!
     
     required init?(coder aDecoder: NSCoder) {
-        callbackDelegate = nil
         super.init(coder: aDecoder)
     }
     
@@ -51,7 +55,7 @@ class EnterURLViewController: UIViewController {
                 }
                 return
             }
-            self.callbackDelegate?.didFinished(withCurrentURL: urlString)
+            self.didFinishSubject.onNext(urlString)
             DispatchQueue.main.async { [weak self] in
                 self?.navigationController?.popViewController(animated: true)
             }

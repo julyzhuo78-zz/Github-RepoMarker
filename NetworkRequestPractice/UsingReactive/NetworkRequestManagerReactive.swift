@@ -20,14 +20,13 @@ class NetworkRequestManagerReactive: NSObject {
     
     
     func fetchAndSaveRepoNameAndReadMeURL(urlString:String) -> Observable<Bool> {
-        let url = URL(string: urlString)
+        guard let url = URL(string: urlString) else { return Observable.just(false) }
         return networkRequester.makeNetworkRequest(url: url)
             // 1st task -> process the raw data to ensure the existence of useful information
             .map({ (array) -> Dictionary<String, String> in
                 var userInfo = Dictionary<String, String>()
-                guard let resultDict = array as? Dictionary<String, Any> else { return userInfo }
-//                guard let resultDict = resultArray[0] as? Dictionary<String, Any> else { return userInfo }
-                guard let repoName = resultDict["full_name"] as? String,
+                guard let resultDict = array as? Dictionary<String, Any>,
+                      let repoName = resultDict["full_name"] as? String,
                       let urlString = resultDict["url"] as? String
                 else { return userInfo }
                 
@@ -42,13 +41,13 @@ class NetworkRequestManagerReactive: NSObject {
                     return false
                 }
                 let urlString = userInfo["urlString"]!
-                var keys = self.userDefaults.value(forKey: "arrayOfKeys") as? Array<String>
-                if  keys != nil {
-                    if keys!.contains(urlString) {
+                let keys = self.userDefaults.value(forKey: "arrayOfKeys") as? Array<String>
+                if  var keyArr = keys  {
+                    if keyArr.contains(urlString) {
                         return false
                     }
-                    keys!.append(urlString)
-                    self.userDefaults.setValue(keys, forKey: "arrayOfKeys")
+                    keyArr.append(urlString)
+                    self.userDefaults.setValue(keyArr, forKey: "arrayOfKeys")
                 } else {
                     var firstKeyArr = Array<String>()
                     firstKeyArr.append(urlString)
@@ -64,8 +63,12 @@ class NetworkRequestManagerReactive: NSObject {
         let url = URL(string: readMeURL)
         return networkRequester.makeNetworkRequest(url: url)
             .map({ (array) -> String in
-                guard let dict = array as? Dictionary<String, Any> else { return String() }
-                guard let readMeHTML = dict["html_url"] as? String else { return String() }
+                guard let dict = array as? Dictionary<String, Any>,
+                      let readMeHTML = dict["html_url"] as? String
+                else {
+                    return String()
+                    
+                }
                 return readMeHTML
             })
     }

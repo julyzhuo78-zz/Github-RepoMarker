@@ -7,6 +7,7 @@ target 'NetworkRequestPractice' do
   # Pods for NetworkRequestPractice
   pod 'RxSwift',    '~> 4.0'
   pod 'RxCocoa',    '~> 4.0'
+  pod 'ReactiveObjC'
 
   target 'NetworkRequestPracticeTests' do
     inherit! :search_paths

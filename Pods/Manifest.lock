@@ -1,21 +1,25 @@
 PODS:
+  - ReactiveObjC (3.1.0)
   - RxCocoa (4.3.1):
     - RxSwift (~> 4.0)
   - RxSwift (4.3.1)
 
 DEPENDENCIES:
+  - ReactiveObjC
   - RxCocoa (~> 4.0)
   - RxSwift (~> 4.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - ReactiveObjC
     - RxCocoa
     - RxSwift
 
 SPEC CHECKSUMS:
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
   RxCocoa: 78763c7b07d02455598d9fc3c1ad091a28b73635
   RxSwift: fe0fd770a43acdb7d0a53da411c9b892e69bb6e4
 
-PODFILE CHECKSUM: 59c0e1b5e7fc35cce44e00389da5a58e6563366a
+PODFILE CHECKSUM: 3dcfaef4de92f921643fa0ed135413309085a634
 
 COCOAPODS: 1.5.3

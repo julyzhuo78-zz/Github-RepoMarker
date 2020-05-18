@@ -67,7 +67,7 @@
 		722112D721B6FAE30001F576 /* EnterURLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterURLViewController.swift; sourceTree = "<group>"; };
 		722112D921B6FC4B0001F576 /* NetworkRequesterReactive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequesterReactive.swift; sourceTree = "<group>"; };
 		722112DB21B710D50001F576 /* NetworkRequestManagerReactive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestManagerReactive.swift; sourceTree = "<group>"; };
-		72339F8321B06FF60041D2A3 /* NetworkRequestPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkRequestPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72339F8321B06FF60041D2A3 /* GitRepoMarker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitRepoMarker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72339F8621B06FF60041D2A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		72339F8721B06FF60041D2A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		72339F8921B06FF60041D2A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -180,7 +180,7 @@
 		72339F8421B06FF60041D2A3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				72339F8321B06FF60041D2A3 /* NetworkRequestPractice.app */,
+				72339F8321B06FF60041D2A3 /* GitRepoMarker.app */,
 				72339F9B21B06FF80041D2A3 /* NetworkRequestPracticeTests.xctest */,
 				72339FA621B06FF80041D2A3 /* NetworkRequestPracticeUITests.xctest */,
 			);
@@ -334,7 +334,7 @@
 			);
 			name = NetworkRequestPractice;
 			productName = NetworkRequestPractice;
-			productReference = 72339F8321B06FF60041D2A3 /* NetworkRequestPractice.app */;
+			productReference = 72339F8321B06FF60041D2A3 /* GitRepoMarker.app */;
 			productType = "com.apple.product-type.application";
 		};
 		72339F9A21B06FF80041D2A3 /* NetworkRequestPracticeTests */ = {
@@ -749,7 +749,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = whatever.NetworkRequestPractice;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GitRepoMarker;
 				SWIFT_OBJC_BRIDGING_HEADER = "NetworkRequestPractice-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
@@ -771,7 +771,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = whatever.NetworkRequestPractice;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GitRepoMarker;
 				SWIFT_OBJC_BRIDGING_HEADER = "NetworkRequestPractice-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

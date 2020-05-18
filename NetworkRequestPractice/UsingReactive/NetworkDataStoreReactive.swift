@@ -35,7 +35,7 @@ class NetworkDataStoreReactive: NSObject {
         
         arrayOfURLs = arrayOfKeys.compactMap { (key) -> String in
             let currentDict = userDefaults.value(forKey: key) as! Dictionary<String, Any>
-            return currentDict["urlString"] as! String
+            return currentDict["urlString"] as? String ?? ""
         }
     }
     

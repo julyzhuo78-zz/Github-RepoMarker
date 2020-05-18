@@ -7,7 +7,7 @@
 //
 
 #import "NetworkRequester.h"
-static NSString *authorizationToken = @"token aa3b2093a7186436663a661f507d49d7bb5d1812";
+static NSString *authorizationToken = @"token 765e30ead6006953d850250d0afc2a7ff8577704";
 
 @implementation NetworkRequester
 
